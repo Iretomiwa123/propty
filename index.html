@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Propty Home page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <!--Inter Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+    <div class="container-fluid p-0">
+      <div id="nav">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">
+            <img src="images/Container (4).png" alt="Logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#how-it-works">How it Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#benefits">Benefits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews">Reviews</a>
+              </li>
+            </ul>
+            <div class="ml-lg-2">
+             
+              <button id="login-btn" class="btn btn2s">Log in</button>
+              <button id="signup-btn" class="btn ml-2" onclick="changeColor()" >Sign up</button>
+
+          </div>
+        </nav>
+      </div>
+
+      <header id="hero-section">
+        <div class="container">
+          <div class="row d-flex flex-wrap justify-content-between">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+              <h3>Streamline Your Facility Management with Propty</h3>
+              <p class="mb-4 mt-4">
+                Propty is a powerful and intuitive app designed for anyone
+                responsible for managing a building, whether you're a facility
+                manager, landlord, tenant, or a property management company.
+              </p>
+              <button class="btn2">Sign up for free</button>
+              <p>No ATM card required</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 mb-5">
+              <img
+                src="images/Frame 11808524.png"
+                alt="Hero Image"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+
+<section>
+      <div id="features">
+        <div class="text-center   featurestex">
+            <h3>Features</h3>
+            <p class="mt-2">Whether you manage a single property or a portfolio of buildings, Propty simplifies billing, payments, and property management.</p>
+        </div>
+        <div class="container">
+            <div class="row"> 
+              <div class="col-lg-4 col-md-12 ">
+                <div class="card p-3 c">
+                  <div class="con text-center text-lg-left">
+                    <img src="./images/Container (1).png" alt=" " style="width: 270px; padding-block: 15px; margin-bottom: 27px; ">
+                  </div>
+                  <h5>Property & Unit Management</h5>
+                  <p>
+                    Manage multiple properties and an unlimited number of units with ease. 
+                    Assign each unit to a tenant with a few clicks
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12">
+                <div class="card1 p-3 c">
+                  <div class="con text-center">
+                    <img src="./images/Margin.png" alt=" " style="width: 270px; padding-inline: 5px;">
+                  </div>
+                  <h5>Create & Assign Bills</h5>
+                  <p>
+                    Easily generate bills and allocate them to specific tenants.
+                    Set due dates and manage payments effortlessly.
+                  </p>
+                </div>
+
+                <div class="card p-3 c">
+                  <div class="con text-center">
+                    <img src="./images/Margin (1).png" alt=" " style="width: 270px; padding: 5px;">
+                  </div>
+                  <h5>Online payment & collections</h5>
+                  <p>
+                    Gain insights into payments, outstanding balances, and overall
+                    financial health with detailed reporting features.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12">
+                <div class="card1 p-3 c">
+                  <div class="con text-center text-lg-left">
+                    <img src="./images/Container (2).png" alt=" " style="width: 270px; padding: 7px;">
+                  </div>
+                  <h5>Comprehensive Payment Reports</h5>
+                  <p >
+                    Gain insights into payments, outstanding balances, and overall
+                    financial health with detailed reporting features.
+                  </p>
+                </div>
+
+                <div class="card p-3 c">
+                  <div class="con text-center">
+                    <img src="./images/Margin (2).png" alt=" " style="width: 270px; padding-block: 3px;">
+                  </div>
+                  <h5>Recurring bill management</h6>
+                  <p>
+                    Set up automatic notifications for recurring bills,
+                    ensuring that nothing slips through the cracks.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </section>
+
+      <div id="how-it-works" class="container">
+        <!-- How it works content -->
+        <div class="container">
+          <div class="row d-flex flex-wrap justify-content-between">
+            <div class="col-lg-6 col-md-6 col-sm-12 pp">         
+              <h3>How It Works in 3 <br> Simple Steps</h3>
+              <div class="ab mb-3 ">
+                <h5>Set Up Your Property</h5>
+                <p>Quickly add your properties and units within the app. Whether you manage a single building or multiple properties, Propty allows you to scale effortlessly.</p>
+
+              </div>
+              <div class="ac mb-3 ">
+                <h5>Create and Assign Bills</h5>
+                <p>Generate bills with just a few clicks. Assign them to specific tenants, set due dates, and automate recurring bills. Propty takes care of sending reminders, ensuring timely payments.</p>
+              </div>
+              <div class="ab ">
+                <h5>Manage and Collect Payments</h5>
+                <p>Tenants can view and pay their bills online through a secure payment gateway. Track all transactions and access comprehensive reports to monitor your cash flow and outstanding balances.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 Uc">
+             
+              <img src="images/Group 2.png" alt="Hero Image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="benefits" class="container my-5">
+        <!-- Benefits content -->
+         <h3 class="text-center mb-5">Benefits of Using Propty</h3>
+      
+        <div class="row">
+   
+             <div class="col-lg-4 col-md-4 col-sm-4 mt-4 mb-5 module">  
+                  <img src="images/on-prem.svg fill.png" alt="">      
+                  <h5>Enhanced Efficiency</h5>
+                  <p>Simplifies the billing process by automating repetitive tasks, allowing facility managers to focus on other essential duties.</p>     
+             </div>
+
+             <div class="col-lg-4 col-md-4 col-sm-4 mt-4 mb-5 module">  
+              <img src="images/bill.png" alt="">     
+              <h5>Accurate Billing<h5>
+              <p>Reduces the risk of errors in bill creation and allocation, ensuring tenants are billed correctly.</p>     
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 mt-4 mb-5 module">  
+              <img src="images/sso.svg.png" alt="">     
+              <h5>Improved Cash Flow<h5>
+              <p>With online payments and timely reminders, tenants are more likely to pay on time, improving overall cash flow.</p>     
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 mt-4 module">  
+              <img src="images/audit-logs.svg.png" alt="">   
+              <h5>Transparency</h5>
+              <p>Provides a clear and comprehensive overview of payments and outstanding debts, making it easier to manage finances.</p>     
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 mt-4 module">  
+              <img src="images/soc-2.svg fill.png" alt="">    
+              <h5>Scalability</h5>
+              <p>Whether managing a single building or multiple properties, Propty scales with your needs</p>     
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 mt-4 module">  
+              <img src="images/professional-services.svg.png" alt="">      
+              <h5>User-Friendly</h5>
+              <p>Designed with both admins and tenants in mind, the app is easy to navigate and use.</p>     
+            </div>
+ 
+        </div>
+    </div>  
+   
+      <div id="reviews" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row d-flex flex-wrap justify-content-between">
+                    <div class="col-lg-6 col-md-6 col-sm-12 pt-5">
+                        <button class="btn4">Landlord</button>
+                        <p class="text">
+                            “As a landlord with multiple properties, Propty has been a game-changer. The multi-property management tool allows me to keep everything organized in one place, and my tenants love the convenience of paying online.”
+                        </p>
+                        <p class="mt-3">
+                            Dele Salami, <br>
+                            Chairman/MD at CHIL
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <img src="images/Group 3.png" alt="Review Image 1" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row d-flex flex-wrap justify-content-between">
+                <div class="col-lg-6 col-md-6 col-sm-12 pt-5">
+                        <button class="btn4">Landlord</button>
+                        <p class="text">
+                            “As a landlord with multiple properties, Propty has been a game-changer. The multi-property management tool allows me to keep everything organized in one place, and my tenants love the convenience of paying online.”
+                        </p>
+                        <p class="mt-3">
+                            Dele Salami, <br>
+                            Chairman/MD at CHIL
+                        </p>
+                    </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="images/Group 3.png" alt="Review Image 1" class="img-fluid">
+                </div>
+            </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row d-flex flex-wrap justify-content-between">
+                <div class="col-lg-6 col-md-6 col-sm-12 pt-5">
+                        <button class="btn4">Landlord</button>
+                        <p class="text">
+                            “As a landlord with multiple properties, Propty has been a game-changer. The multi-property management tool allows me to keep everything organized in one place, and my tenants love the convenience of paying online.”
+                        </p>
+                        <p class="mt-3">
+                            Dele Salami, <br>
+                            Chairman/MD at CHIL
+                        </p>
+                    </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="images/Group 3.png" alt="Review Image 1" class="img-fluid">
+                </div>
+            </div>
+            </div>
+            
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#reviews" data-slide="prev" id="btn5">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#reviews" data-slide="next" id="btn5">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+        </button>
+    </div>
+
+    
+          <div id="try" class=" text-center">
+            <h3 class="">Try Propty Today</h3>
+            <p class="mt-4 mb-4">Propty is currently in beta, and we're excited to bring this powerful tool to the market soon. Sign up now to be one of the first to experience the future of facility management.</p>
+            <button class="btn3">Sign up for free</button>
+            <p class="ff">No ATM card required</p>
+            <div class="ffot">
+              <img src="images/Container (5).png" alt="">
+            </div>
+            <!-- Try content -->
+          </div>    
+          
+
+          <footer class="justify-content-between color footer">           
+            <div class="icon">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-x-twitter"></i>
+              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-youtube"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+            </div>
+            <div>
+              <p class="ft">&#169; 2024 Propty. All rights reserved.</p>
+            </div>    
+          </footer>
+      
+    <!-- Bootstrap JS and dependencies -->
+     
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
